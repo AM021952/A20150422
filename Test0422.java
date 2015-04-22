@@ -4,7 +4,16 @@
 		int x=10, y=5;
 		new A().minFunc(x, y);
 		new B().maxFunc(x, y);
-		new C().avgFunc(x, y);
+		new C().avgFunc(x, y); 
+	}
+}
+class A{
+	public void minFunc(int x,int y){
+		if(x<y){
+			System.out.println(x);
+		}else{
+			System.out.println(y);
+		}
 	}
 }
 class B{
