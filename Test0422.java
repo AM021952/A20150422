@@ -4,7 +4,7 @@
 		int x=10, y=5;
 		new A().minFunc(x, y);
 		new B().maxFunc(x, y);
-		new C().avgFunc(x, y);
+		new C().avgFunc(x, y); 
 	}
 }
 class A{
