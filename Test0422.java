@@ -18,7 +18,7 @@ class B{
 	}
 }
 class C{
-	public voidavg Func(int x,int y){
+	public void avgFunc(int x,int y){
 		System.out.println((x+y)/2);
 	}
 }
